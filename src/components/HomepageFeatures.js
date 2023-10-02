@@ -1,10 +1,12 @@
+import Translate, {translate} from '@docusaurus/Translate';
+
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'very Easy to Use',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>

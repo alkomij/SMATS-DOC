@@ -1,12 +1,10 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-// With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-(module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+module.exports = {
+  title: 'Advanced Traffic Data Collection Technology',
+  tagline: 'SMATS Documentation',
+  url: 'https://smats-doc.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,100 +15,114 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          includeCurrentVersion:true
-          // Please change this to your repo.
+          includeCurrentVersion: true,
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+  themeConfig: {
+    navbar: {
+      title: 'My Site',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docsVersionDropdown'
         },
-        items: [
-          {
-            type: 'docsVersionDropdown'
-            // type: 'doc',
-            // docId: 'intro',
-            // position: 'left',
-            // label: 'Tutorial',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        {
+          type: 'localeDropdown', // Add the localeDropdown to the left side of the navbar
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/alkomij/SMATS-DOC',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Documentation',
+              to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'SMATS website',
+              href: 'https://www.smatstraffic.com/',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/smats-traffic-solutions-inc./',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/i/flow/login?redirect_after_login=%2Fsmatstraffic',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/smatstraffic/',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCepK-wBkizhZ9_xEky7WeYw',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/alkomij/SMATS-DOC',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} SMATS Doc., Inc. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+    localeConfigs: {
+      en: {
+        label: 'English',
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      fr: {
+        label: 'French',
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
-});
+    },
+  },
+};

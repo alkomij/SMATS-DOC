@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "1.0.0",
+    "description": "The label for version 1.0.0"
+  },
+  "sidebar.tutorialSidebar.category.Inode": {
+    "message": "Inode",
+    "description": "The label for category Inode in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dashboar": {
+    "message": "Tableau de bord",
+    "description": "The label for category Dashboar in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sensors": {
+    "message": "Capteurs",
+    "description": "The label for category Sensors in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Links": {
+    "message": "Liens",
+    "description": "The label for category Links in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sensors Configuration Web UI": {
+    "message": "Configuration Web des Capteurs",
+    "description": "The label for category Sensors Configuration Web UI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TrafficXHub+": {
+    "message": "TrafficXHub+",
+    "description": "The label for category TrafficXHub+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TrafficBox": {
+    "message": "TrafficBox",
+    "description": "The label for category TrafficBox in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TrafficXHub": {
+    "message": "TrafficXHub",
+    "description": "The label for category TrafficXHub in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Radar": {
+    "message": "Radar",
+    "description": "The label for category Radar in sidebar tutorialSidebar"
+  }
+}
