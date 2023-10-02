@@ -6,32 +6,56 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'very Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Introduction',
+    imageUrl: require('../../static/img/Pic1.jpg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        At SMATS, we are committed to revolutionizing traffic management through cutting-edge solutions that drive efficiency, safety, and sustainability. Our suite of innovative products is designed to address the most pressing challenges in the field of traffic management, ensuring a smarter and more accessible future for communities worldwide.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Enhanced Traffic Flow',
+    imageUrl: require('../../static/img/Pic2.jpg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        One of the key advantages of SMATS products is their ability to optimize traffic flow. Through real-time data analysis and intelligent algorithms, our solutions adapt to changing traffic conditions, reducing congestion and improving the overall driving experience. Say goodbye to gridlock and hello to smoother, more efficient journeys.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Improved Safety',
+    imageUrl: require('../../static/img/Pic3.jpg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Safety is paramount, and SMATS products prioritize it. Our advanced monitoring systems can detect potential hazards and alert authorities and drivers in real time. This proactive approach reduces accidents, making roads safer for everyone. We believe that every journey should end safely.
+      </>
+    ),
+  },
+  {
+    title: 'Sustainability at Heart',
+    imageUrl: require('../../static/img/Pic4.jpg').default,
+    description: (
+      <>
+        We are committed to sustainability. SMATS products help reduce emissions by optimizing traffic flow, reducing idle time, and promoting the use of alternative transportation methods. By making our cities greener and more environmentally friendly, we pave the way for a brighter future.
+      </>
+    ),
+  },
+  {
+    title: 'Data-Driven Insights',
+    imageUrl: require('../../static/img/Pic5.jpg').default,
+    description: (
+      <>
+        SMATS products are not just solutions; they are invaluable sources of data. With our systems in place, you gain access to comprehensive traffic analytics that can inform future infrastructure decisions, enhance city planning, and lead to even smarter solutions.
+      </>
+    ),
+  },
+  {
+    title: 'Customized Solutions',
+    imageUrl: require('../../static/img/Pic6.jpg').default,
+    description: (
+      <>
+        Every city is unique, and we understand that. That's why SMATS products are highly adaptable and customizable to suit the specific needs of your community. Whether you need a traffic management system for a bustling metropolis or a quiet suburban neighborhood, we've got you covered.
       </>
     ),
   },

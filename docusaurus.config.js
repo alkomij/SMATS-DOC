@@ -34,12 +34,19 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SMATS',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Documention',
+          
+        },
         {
           type: 'docsVersionDropdown'
         },
@@ -62,7 +69,7 @@ module.exports = {
           items: [
             {
               label: 'Documentation',
-              to: '/docs/intro',
+              to: '/intro',
             },
           ],
         },
@@ -94,10 +101,10 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/alkomij/SMATS-DOC',
