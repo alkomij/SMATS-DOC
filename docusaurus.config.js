@@ -114,6 +114,12 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} SMATS Doc., Inc. Built with Docusaurus.`,
     },
+    algolia: {
+      apiKey: '5fd399da85660ba0d5df4bfea101a24e',
+      indexName: 'SMATS-DOC',
+      appId: 'EGK72GR1GO',
+    },
+    
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,

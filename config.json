@@ -1,10 +1,10 @@
 {
     "index_name": "SMATS-DOC",
     "start_urls": [
-      "https://smats-doc.netlify.app/"
+      "https://smats-docs.netlify.app/"
     ],
     "sitemap_urls": [
-      "https://smats-doc.netlify.app/sitemap.xml"
+      "https://smats-docs.netlify.app/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [
