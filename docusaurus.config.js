@@ -115,7 +115,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} SMATS Doc., Inc. Built with Docusaurus.`,
     },
     algolia: {
-      apiKey: '5fd399da85660ba0d5df4bfea101a24e',
+      apiKey: 'f51b0bdf97522da923c1a5a4cb6070e2',
       indexName: 'SMATS-DOC',
       appId: 'EGK72GR1GO',
     },
