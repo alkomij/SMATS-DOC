@@ -13,11 +13,7 @@
   },
   "link.item.label.Documentation": {
     "message": "Documentation",
-    "description": "The label of footer link with label=Documentation linking to /docs/intro"
-  },
-  "link.item.label.Site SMATS": {
-    "message": "Site SMATS",
-    "description": "Le libellé du lien de pied de page avec label=Site SMATS qui pointe vers https://www.smatstraffic.com/"
+    "description": "The label of footer link with label=Documentation linking to /intro"
   },
   "link.item.label.LinkedIn": {
     "message": "LinkedIn",
@@ -34,10 +30,6 @@
   "link.item.label.YouTube": {
     "message": "YouTube",
     "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/channel/UCepK-wBkizhZ9_xEky7WeYw"
-  },
-  "link.item.label.Blog": {
-    "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to /blog"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",

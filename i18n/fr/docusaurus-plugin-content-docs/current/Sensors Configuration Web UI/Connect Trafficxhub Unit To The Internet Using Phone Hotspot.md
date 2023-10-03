@@ -1,38 +1,38 @@
 ---
-id: Connect Trafficxhub Unit To The Internet Using Phone Hotspot
-title: Connect Trafficxhub Unit To The Internet Using Phone Hotspot
-sidebar_label: Connect Trafficxhub Unit To The Internet Using Phone Hotspot
+id: Connecter l'unité TrafficXHub à Internet en utilisant un point d'accès mobile
+title: Connecter l'unité TrafficXHub à Internet en utilisant un point d'accès mobile
+sidebar_label: Connecter l'unité TrafficXHub à Internet en utilisant un point d'accès mobile
 sidebar_position: 2
-slug: /Connect-Trafficxhub-Unit-To-The-Internet-Using-Phone-Hotspot
+slug: /connecter-l-unite-trafficxhub-a-internet-en-utilisant-un-point-d-acces-mobile
 ---
-# CONNECT TRAFFICXHUB UNIT TO THE INTERNET USING PHONE HOTSPOT
+# CONNECTER L'UNITÉ TRAFFICXHUB À INTERNET EN UTILISANT UN POINT D'ACCÈS MOBILE
 
-You can use the hotspot feature on both iOS and Android smartphones to temporarily connect the TrafficXHub unit to the internet.
+Vous pouvez utiliser la fonction de point d'accès mobile sur les smartphones iOS et Android pour connecter temporairement l'unité TrafficXHub à Internet.
 
-## iOS Hotspot Configuration
+## Configuration du point d'accès mobile sur iOS
 
-To set up the hotspot on an iOS device, follow these steps:
+Pour configurer le point d'accès mobile sur un appareil iOS, suivez ces étapes :
 
-1. Open your iPhone's settings.
-2. Go to "Personal Hotspot."
-3. Enable the "Personal Hotspot" option.
-4. You can configure your hotspot settings, including the name and password.
-5. Note: Ensure "Maximize Compatibility" is checked.
+1. Ouvrez les paramètres de votre iPhone.
+2. Accédez à "Point d'accès personnel".
+3. Activez l'option "Point d'accès personnel".
+4. Vous pouvez configurer les paramètres de votre point d'accès, y compris le nom et le mot de passe.
+5. Remarque : Assurez-vous que "Maximiser la compatibilité" est coché.
 
-## Android Hotspot Configuration
+## Configuration du point d'accès mobile sur Android
 
-For Android devices, make sure to use the "2.4 GHz" band for the hotspot. Follow these steps:
+Pour les appareils Android, assurez-vous d'utiliser la bande "2,4 GHz" pour le point d'accès. Suivez ces étapes :
 
-1. Open your Android phone's settings.
-2. Go to "Network & internet."
-3. Select "Hotspot & tethering."
-4. Enable the "Mobile Hotspot" option.
-5. Configure your hotspot settings, including the network name and password.
+1. Ouvrez les paramètres de votre téléphone Android.
+2. Accédez à "Réseau et Internet".
+3. Sélectionnez "Point d'accès et partage de connexion".
+4. Activez l'option "Point d'accès mobile".
+5. Configurez les paramètres de votre point d'accès, y compris le nom du réseau et le mot de passe.
 
-After configuring your phone's hotspot settings, follow these steps on the TrafficXHub web UI:
+Après avoir configuré les paramètres du point d'accès de votre téléphone, suivez ces étapes sur l'interface web TrafficXHub :
 
-1. Open the TrafficXHub web UI configuration page.
-2. Navigate to "Config > Connectivity > Network."
-3. Set the values according to your hotspot configuration.
+1. Ouvrez la page de configuration de l'interface web TrafficXHub.
+2. Accédez à "Config > Connectivité > Réseau".
+3. Configurez les valeurs en fonction de la configuration de votre point d'accès mobile.
 
-With these settings in place, your TrafficXHub unit will be connected to the internet via your smartphone's hotspot, ensuring seamless data collection and transmission.
+Avec ces paramètres en place, votre unité TrafficXHub sera connectée à Internet via le point d'accès mobile de votre smartphone, garantissant une collecte et une transmission de données fluides.

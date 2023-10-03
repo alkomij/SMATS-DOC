@@ -1,22 +1,13 @@
 ---
-id: SMATS’ DATA ANALYSIS PLATFORM
-title: SMATS’ DATA ANALYSIS PLATFORM
-sidebar_label: iNode™, SMATS’ Data Analysis Platform
+id: inode-smats-data-analysis-platform
+title: iNode™, PLATEFORME D'ANALYSE DE DONNÉES DE SMATS
+sidebar_label: iNode™, Plateforme d'Analyse de Données de SMATS
 sidebar_position: 1
 slug: /inode-smats-data-analysis-platform
 ---
-# INODE™, SMATS’ DATA ANALYSIS PLATFORM
 
-Smats iNode™ is a powerful data processing platform that utilizes advanced filtering and data mining algorithms to deliver precise and reliable traffic information derived from your collected Bluetooth and Wi-Fi samples. The data is seamlessly transmitted to iNode via our API, where it undergoes automated decomposition and efficient analysis. This process not only saves valuable time but also eliminates the potential for human error that could otherwise affect data accuracy.
+# iNode™, PLATEFORME D'ANALYSE DE DONNÉES DE SMATS
 
-Key features and benefits of Smats iNode™ include:
+Smats iNode™ est une puissante plateforme de traitement qui utilise des algorithmes de filtrage avancés et de fouille de données pour fournir des informations sur le trafic précises et robustes à partir de vos échantillons Bluetooth et Wi-Fi collectés. Grâce à notre API, les données sont transmises à iNode, où elles sont automatiquement traitées et analysées de manière efficace, ce qui permet d'économiser du temps aux utilisateurs et d'éliminer le risque d'erreur humaine susceptible d'affecter les données produites.
 
-- **Real-Time Data Processing:** iNode provides real-time data processing capabilities, whether from sensors' scanners or crowdsourced data. This enables users to access up-to-the-minute insights.
-
-- **Data-Driven Decision-Making:** iNode empowers our customers to make data-driven decisions, allowing them to optimize existing infrastructure capacities and reduce delay times by up to 50%.
-
-- **Remote Scanner Management:** Users can easily adjust scanner preferences, including activity levels, and toggle scanner operations on and off from anywhere, providing flexibility and control.
-
-By harnessing the capabilities of iNode, our customers can enhance their traffic management strategies and improve overall operational efficiency.
-
-For further details and to explore the full range of features offered by iNode, please refer to the iNode documentation or contact our support team.
+En offrant un traitement des données en temps réel à partir des scanners des capteurs ou des données crowdsourcées, iNode permet à nos clients de prendre des décisions basées sur les données, réduisant les temps d'attente jusqu'à 50 % dans le cadre de leurs capacités d'infrastructure existantes. Avec iNode, les utilisateurs peuvent facilement mettre à jour les préférences des scanners, y compris les niveaux d'activité, et activer ou désactiver instantanément les opérations des scanners de n'importe où.

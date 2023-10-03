@@ -5,30 +5,23 @@ sidebar_label: Map Tab
 sidebar_position: 1
 slug: /Map-Tab
 ---
-# MAP TAB
 
-The Map tab provides an overview of your sensors, links, routes, and signs displayed on a Google map. Additionally, it offers essential information such as the number of collecting links, scheduled links, and active alerts for crowd-sourced users, as well as the number of online sensors, links, routes, and active alerts for sensor users.
+# Map Tab
 
-**Note:** Sensor data is visible to Sensor Users only.
+The Map tab displays all your sensors, links, routes, and signs on the Google map. It also provides information on the number of collecting links, scheduled links, and active alerts for crowd-sourced users, as well as the number of online sensors, links, routes, and active alerts for sensor users.
 
-Key features of the Map tab include:
+**Important:** Sensors are displayed for Sensor Users only.
 
-- **Sensor Markers:** Each sensor is represented as a marker on the map. Online sensors are color-coded in green, while offline sensors are marked in red.
+Each sensor appears as a marker on the map, and it is color-coded green if online or red if offline.
 
-- **Signs:** If you have created one or more signs, they will be displayed on the map with blue markers.
+If you have created one or more signs, they will be shown with blue markers on the map.
 
-- **Link and Route Colors:** Links and routes are differentiated by colors, ranging from dark red (indicating heavy congestion) to green (representing normal traffic conditions). These colors are determined based on the average travel speed of each link or route compared to the Free Flow Speed.
+Links and routes are also color-coded, ranging from dark red (most congested) to green (normal). These colors are based on each link or route's average travel speed compared to the Free Flow Speed.
 
-- **Link Status:** A blue color on a link indicates that the link is currently disabled.
+A blue link indicates that the link is disabled.
 
-- **Detailed Information:** Clicking on a link or route opens a pop-up window that provides specific details, including its name, free flow speed, distance, last recorded speed, travel time, last updated time, data source, sample size (count) of the last interval, and a speed chart displaying data from the last 24 hours.
+Clicking on each link or route opens a pop-up window that displays specific information, including its name, free flow speed, distance, last recorded speed and travel time, last updated time, data source, the sample size (count) of the last interval, and a speed chart of the last 24 hours of data.
 
-- **Map View Options:** You can toggle between the Map or Satellite view by selecting the desired option in the map's upper-left corner.
+You can change the Google map view using the Map or Satellite view options in the upper-left corner of the map.
 
-- **Map Settings:** Map Settings allow you to customize the display by showing or hiding sensors, links, routes, and signs.
-
-- **Map Data Animation:** This feature reloads previously captured data from a specific date and time, enabling you to visualize link and route colors for that specific time period.
-
-The Map tab provides a comprehensive view of your traffic data and facilitates better monitoring and analysis of traffic conditions.
-
-For more detailed instructions and options related to the Map tab, please refer to the user manual or documentation.
+**Map Settings** can be used to show or hide sensors, links, routes, and signs on the map, and **Map Data Animation** reloads previously captured data for a specific date and time to display link and route colors for that period.

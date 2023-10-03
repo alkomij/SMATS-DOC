@@ -1,63 +1,60 @@
 ---
 id: Connection to PC
-title: Connection to PC
-sidebar_label: TConnection to PC
+title: Connexion à un PC
+sidebar_label: Connexion à un PC
 sidebar_position: 1
-slug: /Connection-to-PC
+slug: /connexion-a-un-pc
 ---
 
-# CONNECTION TO PC
+# CONNEXION À UN PC
 
-## Table of Contents
+## Table des matières
 
-- [Direct Connection to the PC](#direct-connection-to-the-pc)
-  - [Via Ethernet Cable](#via-ethernet-cable)
-  - [Via RS-485 Cable](#via-rs-485-cable)
-- [Through TrafficXHub](#through-trafficxhub)
-  - [Obtain TrafficXHub Device IP Address](#obtain-trafficxhub-device-ip-address)
-  - [Opening TrafficXHub Radar Plugin Configuration](#opening-trafficxhub-radar-plugin-configuration)
-  - [Setup smartmicro TMC Software to Use TCP/IP Method](#setup-smartmicro-tmc-software-to-use-tcpip-method)
+- [Connexion Directe au PC](#connexion-directe-au-pc)
+  - [Via Câble Ethernet](#via-câble-ethernet)
+  - [Via Câble RS-485](#via-câble-rs-485)
+- [À Travers TrafficXHub](#à-travers-trafficxhub)
+  - [Obtenir l'Adresse IP du Périphérique TrafficXHub](#obtenir-l'adresse-ip-du-périphérique-trafficxhub)
+  - [Ouverture de la Configuration du Plugin Radar TrafficXHub](#ouverture-de-la-configuration-du-plugin-radar-trafficxhub)
+  - [Configuration du Logiciel smartmicro TMC pour Utiliser la Méthode TCP/IP](#configuration-du-logiciel-smartmicro-tmc-pour-utiliser-la-méthode-tcpip)
 
-## Direct Connection to the PC
+## Connexion Directe au PC
 
-The most basic way to set up and configure the smartmicro Radar is to connect it directly to a PC (with TMC software installed) using the smartmicro Plug&Play cable.
+La manière la plus basique pour configurer le radar smartmicro est de le connecter directement à un PC (avec le logiciel TMC installé) en utilisant le câble Plug&Play smartmicro.
 
-You can either use the ethernet cable or RS-485 for direct connection of the smartmicro radar to a PC. You may need a USB to RS-485 converter if you use RS-485.
+Vous pouvez utiliser soit le câble Ethernet, soit le RS-485 pour la connexion directe du radar smartmicro à un PC. Vous pourriez avoir besoin d'un convertisseur USB vers RS-485 si vous utilisez le RS-485.
 
-The following images show the Installation > Communication > Connections of the TMC wizard setup page.
+Les images suivantes montrent la page de configuration de l'assistant TMC dans Installation > Communication > Connexions.
 
-### Via Ethernet Cable
+### Via Câble Ethernet
 
-
-### Via RS-485 Cable
-
-
-## Through TrafficXHub
-
-For the initial setup of the radar as well as its installation and setup in the field, you can use TrafficXHub sensor which routes the sensor RS-485 data over TCP/IP to and from the smartmicro radar. TrafficXHub can also be used for remote configuration of the radar through iNode after deployment.
-
-Connect TrafficXHub to the smartmicro radar through the provided RS-485-12V cable and the JBOX.
-
-### Obtain TrafficXHub Device IP Address
-
-The next step is to connect the TrafficXHub to your PC and open the configuration page. Follow this guide to learn how to get access to the TrafficXHub web-based configuration page through your PC browser. Normally, the TrafficXHub is set on Ethernet static IP of 192.168.0.22.
-
-### Opening TrafficXHub Radar Plugin Configuration
-
-Once you have opened the TrafficXHub configuration interface, login in to get access to the Config tab. Then select Scanner and Radar. Change the configuration of the “Radar” plugin and put it in the “Config” mode to let the TrafficXHub route the RS-485 data through a TCP server. Restart the Radar plugin once it is prompted.
-
-The below pictures show the configuration of the Radar in the “Config” mode.
+### Via Câble RS-485
 
 
-In this example, we used port 5001 for the server port. We will use this port and the IP of the TrafficXHub device in the TMC for configuring the Radar.
+## À Travers TrafficXHub
 
-### Setup smartmicro TMC Software to Use TCP/IP Method
+Pour la configuration initiale du radar ainsi que son installation et sa configuration sur le terrain, vous pouvez utiliser le capteur TrafficXHub qui achemine les données RS-485 du capteur vers le radar smartmicro via TCP/IP. TrafficXHub peut également être utilisé pour la configuration à distance du radar via iNode après le déploiement.
 
-Once you open the TMC software (any version), open the Wizard and go to this page Installation > Communication > Connections.
+Connectez TrafficXHub au radar smartmicro en utilisant le câble RS-485-12V fourni et le boîtier JBOX.
 
-Use the “+” button to add a Moxa server connector entity and select a sensor that you wish to connect to from the available sensors list.
+### Obtenir l'Adresse IP du Périphérique TrafficXHub
 
+La prochaine étape consiste à connecter TrafficXHub à votre PC et à ouvrir la page de configuration. Suivez ce guide pour apprendre comment accéder à la page de configuration basée sur le web de TrafficXHub via le navigateur de votre PC. Normalement, TrafficXHub est configuré avec une adresse IP statique Ethernet de 192.168.0.22.
 
-Click on the Next button and wait for the TMC to connect to the sensor and see the “sensor found” message.
+### Ouverture de la Configuration du Plugin Radar TrafficXHub
 
-Now you can configure the radar.
+Une fois que vous avez ouvert l'interface de configuration de TrafficXHub, connectez-vous pour accéder à l'onglet Configuration. Ensuite, sélectionnez Scanner et Radar. Modifiez la configuration du plugin "Radar" et mettez-le en mode "Configuration" pour permettre à TrafficXHub de faire transiter les données RS-485 via un serveur TCP. Redémarrez le plugin Radar lorsqu'il vous y invite.
+
+Les images ci-dessous montrent la configuration du Radar en mode "Configuration".
+
+Dans cet exemple, nous avons utilisé le port 5001 pour le port du serveur. Nous utiliserons ce port et l'adresse IP du périphérique TrafficXHub dans le logiciel TMC pour configurer le Radar.
+
+### Configuration du Logiciel smartmicro TMC pour Utiliser la Méthode TCP/IP
+
+Une fois que vous avez ouvert le logiciel TMC (quelle que soit la version), ouvrez l'assistant et accédez à la page Installation > Communication > Connexions.
+
+Utilisez le bouton "+" pour ajouter une entité connecteur de serveur Moxa et sélectionnez un capteur auquel vous souhaitez vous connecter à partir de la liste des capteurs disponibles.
+
+Cliquez sur le bouton Suivant et attendez que le TMC se connecte au capteur et affiche le message "capteur trouvé".
+
+Vous pouvez maintenant configurer le radar.

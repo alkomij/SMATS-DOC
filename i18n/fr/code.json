@@ -1,18 +1,9 @@
 {
   "Advanced Traffic Data Collection Technology": {
-    "message": "Technologie avancée de collecte de données de trafic",
-    "description": "Message d'accueil pour la technologie avancée de collecte de données de trafic"
+    "message": "Technologie avancée de collecte de données de trafic"
   },
   "SMATS Documentation": {
-    "message": "Documentation SMATS",
-    "description": "Message d'accueil pour la documentation SMATS"
-  },
-  "Easy to Use": {
-    "message": "Facile à utiliser",
-    "description": "The homepage message to ask the user to visit my blog"
-  },
-  "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.": {
-    "message": "Docusaurus a été conçu dès le départ pour être facilement installé et utilisé pour mettre en place rapidement votre site web."
+    "message": "Documentation SMATS"
   },
   "theme.NotFound.title": {
     "message": "Page introuvable",
@@ -193,5 +184,120 @@
   "theme.tags.tagsPageTitle": {
     "message": "Étiquettes",
     "description": "The title of the tag list page"
+  },
+  "Introduction": {
+    "message": "Introduction",
+    "description": "Introduction"
+  },
+  "At SMATS, we are committed to revolutionizing traffic management through cutting-edge solutions that drive efficiency, safety, and sustainability. Our suite of innovative products is designed to address the most pressing challenges in the field of traffic management, ensuring a smarter and more accessible future for communities worldwide.": {
+    "message": "Chez SMATS, nous nous engageons à révolutionner la gestion du trafic grâce à des solutions de pointe qui favorisent l'efficacité, la sécurité et la durabilité. Notre gamme de produits innovants est conçue pour répondre aux défis les plus pressants dans le domaine de la gestion du trafic, garantissant un avenir plus intelligent et plus accessible pour les communautés du monde entier."
+  },
+  "Sustainability at Heart": {
+    "message": "Durabilité au cœur",
+    "description": "Sustainability at Heart"
+  },
+  "We are committed to sustainability. SMATS products help reduce emissions by optimizing traffic flow, reducing idle time, and promoting the use of alternative transportation methods. By making our cities greener and more environmentally friendly, we pave the way for a brighter future.": {
+    "message": "Nous nous engageons en faveur de la durabilité. Les produits SMATS contribuent à réduire les émissions en optimisant la circulation routière, en réduisant les temps d'arrêt et en favorisant l'utilisation de modes de transport alternatifs. En rendant nos villes plus vertes et plus respectueuses de l'environnement, nous ouvrons la voie à un avenir plus lumineux."
+  },
+  "Customized Solutions": {
+    "message": "Solutions personnalisées",
+    "description": "Customized Solutions"
+  },
+  "Every city is unique, and we understand that. That's why SMATS products are highly adaptable and customizable to suit the specific needs of your community. Whether you need a traffic management system for a bustling metropolis or a quiet suburban neighborhood, we've got you covered.": {
+    "message": "Chaque ville est unique, et nous le comprenons. C'est pourquoi les produits SMATS sont hautement adaptables et personnalisables pour répondre aux besoins spécifiques de votre communauté. Que vous ayez besoin d'un système de gestion du trafic pour une métropole animée ou un quartier de banlieue calme, nous avons ce qu'il vous faut."
+  },
+  "Documentation Page": {
+    "message": "Documentation Page"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Cette page a planté.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.admonition.note": {
+    "message": "remarque",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "astuce",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "attention",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retour au début de la page",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Basculer entre le mode sombre et clair (actuellement {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mode sombre",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "mode clair",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} éléments",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Fil d'Ariane",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Activer/désactiver le retour à la ligne",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Plier/Déplier la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Langues",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "En savoir plus sur {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Page d'accueil",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Fermer la barre de navigation",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Ouvrir/fermer la barre de navigation",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Réessayer",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   }
 }

@@ -1,11 +1,11 @@
 ---
-id: TRAFFICBOX INSTALLATION
-title: Trafficbox Components
-sidebar_label: Trafficbox Components
+id: INSTALLATION DE TRAFFICBOX
+title: Composants de TrafficBox
+sidebar_label: Composants de TrafficBox
 sidebar_position: 2
-slug: /Trafficbox-Components
+slug: /composants-de-trafficbox
 ---
 
-TrafficBox™ can be set up to collect data from the roadside when secured to a pole using pole-mount brackets and clamps. The image below illustrates the set-up of TrafficBox™ in the field. The recommended mounting height of the sensor is three meters (10 feet) above the ground facing toward the road traffic.
+TrafficBox™ peut être installé pour collecter des données en bordure de route lorsqu'il est fixé à un poteau à l'aide de supports de montage et de pinces. L'image ci-dessous illustre la configuration de TrafficBox™ sur le terrain. La hauteur de montage recommandée du capteur est de trois mètres (10 pieds) au-dessus du sol, orientée vers la circulation routière.
 
-![Processing Unit](../../../../../static/img/TrafficBox-Install.png)
+![Unité de traitement](../../../../../static/img/TrafficBox-Install.png)

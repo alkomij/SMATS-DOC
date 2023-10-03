@@ -1,27 +1,26 @@
 ---
 id: configuration
-title: configuration
-sidebar_label: configuration
+title: Configuration
+sidebar_label: Configuration
 sidebar_position: 1
 slug: /configuration
 ---
 # CONFIGURATION
 
-After successfully connecting the smartmicro radar to the TMC software, you need to set up the lanes, zones, and enable the statistics module on the zones from which you want to gather data.
+Après avoir connecté avec succès le radar smartmicro au logiciel TMC, vous devez configurer les voies, les zones et activer le module de statistiques pour les zones à partir desquelles vous souhaitez collecter des données.
 
-To enable the statistics module, follow these steps:
+Pour activer le module de statistiques, suivez ces étapes :
 
-1. Go to **Installation > Site Plan > Traffic Statistics**.
+1. Allez dans **Installation > Plan du site > Statistiques de trafic**.
 
-2. Select the desired zone(s) in the **Lanes and Zones** section.
+2. Sélectionnez la ou les zones souhaitées dans la section **Voies et Zones**.
 
-3. Choose the update interval.
+3. Choisissez l'intervalle de mise à jour.
 
-4. Select all the **Statistics Features Activation** options that you want to enable.
+4. Sélectionnez toutes les options d'activation des **Fonctionnalités de statistiques** que vous souhaitez activer.
 
-5. Finally, select the object classes that you would like to detect.
+5. Enfin, sélectionnez les classes d'objets que vous souhaitez détecter.
 
-The images below provide screenshots of the “Traffic Statistics” page after the setup. For comprehensive instructions, refer to the smartmicro TMC software guide.
+Les images ci-dessous présentent des captures d'écran de la page "Statistiques de trafic" après la configuration. Pour des instructions détaillées, consultez le guide du logiciel TMC smartmicro.
 
-
-In the above Markdown code, replace `image-link-for-traffic-stats-config.png` with the actual file path or URL of the image you want to include in your documentation. Ensure that the image file is placed in the appropriate directory within your documentation project.
+Dans le code Markdown ci-dessus, remplacez `lien-de-l-image-pour-la-configuration-des-statistiques-de-trafic.png` par le chemin d'accès réel ou l'URL de l'image que vous souhaitez inclure dans votre documentation. Assurez-vous que le fichier image est placé dans le répertoire approprié de votre projet de documentation.

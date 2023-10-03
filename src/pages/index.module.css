@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+/* Add this to your CSS file */
+.featureRow {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment as needed */
+  align-items: center; /* Adjust alignment as needed */
+}

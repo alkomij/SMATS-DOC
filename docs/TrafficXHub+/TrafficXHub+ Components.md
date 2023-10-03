@@ -5,10 +5,9 @@ sidebar_label: TrafficXHub+ Components
 sidebar_position: 2
 slug: /TrafficXHub+-Components
 ---
-# TRAFFICXHUB+ COMPONENTS
+# TrafficXHub+ Components
 
-## Table of Contents
-
+Table of Contents
 - [Sensor](#sensor)
 - [Power Supply](#power-supply)
 - [Power Switch](#power-switch)
@@ -17,53 +16,44 @@ slug: /TrafficXHub+-Components
 - [Ethernet and External Antennas Connections](#ethernet-and-external-antennas-connections)
 - [Power Cable](#power-cable)
 
-TrafficXHub™ has two main components: the sensor and the antennas.
+# TrafficXHub Components
+
+Table of Contents
+- [Sensor](#sensor)
+- [Power Supply](#power-supply)
+- [Power Switch](#power-switch)
+- [LEDs](#leds)
+- [Ethernet and Antenna Connections](#ethernet-and-antenna-connections)
+- [External Antennas](#external-antennas)
 
 ## Sensor
 
-The sensor is the main component of the whole system and is responsible for the following tasks:
+TrafficXHub™ has 2 main components: the sensor and the antennas.
 
-- Wi-Fi and Bluetooth scanning
-- Data storage
-- Sensor status monitoring
-- LED control
-- Communication via Wi-Fi, Ethernet, or Cellular modem. 
-
-The image below illustrates the sensor mainboard’s components.
-
-**SIM Card:** The slot supports Micro/3FF size SIM cards.
+**Sensor**
+The sensor is the main component of the whole system and is responsible for the following tasks: Wi-Fi and Bluetooth scanning, data storage, sensor status monitoring, LED control, and communication via Wi-Fi, Ethernet, or Cellular modem. The image below illustrates the sensor mainboard’s components.
 
 ## Power Supply
 
-The sensor can be powered through three different sources:
-
-1. **Power-over-Ethernet (PoE):** This method does not have a power ON/OFF switch and automatically powers on when connected.
-
-2. **AC:** When using an AC power source, you can use the Power Switch to turn the sensor ON and OFF.
-
-3. **12V Solar Panel/Battery:** For solar-powered installations, this source is available. Use the Power Switch to control the power supply.
+**Power Supply**
+The sensor can be powered through 3 different sources: Power-over-Ethernet (PoE), AC, or 12V Solar Panel/Battery.
 
 ## Power Switch
 
+**Power Switch**
 The power switch powers the sensor ON and OFF when the AC or Solar Panel Battery power sources are used. The PoE does not have any power ON switch. Once the sensor is powered ON, the processing unit starts the scanners and other processes until the sensor is fully functional and connected to the SMATS server.
-
-## LEDs Power Switch
-
-The LEDs power switch turns ON and OFF the sensor’s LEDs. To reduce the sensor power consumption for battery-powered and/or solar deployments, it is recommended to put the switch in the OFF position.
 
 ## LEDs
 
-TrafficXHub™ unit has eight LEDs to show the status of the sensor’s power supply, internet connection, GPS, and scanners. You can turn ON/OFF the status LEDs for power saving in solar-powered cases and range testing mode. Table 1 presents the description of each LED and their status definition.
+**LEDs**
+TrafficXHub™ unit has eight LEDs to show the status of the sensor’s power supply, internet connection, GPS, and scanners. Turn ON/OFF the status LEDs for power saving in solar-powered cases and range testing mode. Table 1 presents the description of each LED and their status definition.
 
-## Ethernet and External Antennas Connections
+## Ethernet and Antenna Connections
 
-On the bottom side of the sensor, an Ethernet port and two N-Type RF connectors are available (only in some models), as seen in the image below. The Ethernet connector can be used for PC connection to configure the sensor or for LAN/PoE connection. The N-Type connectors are used to connect Wi-Fi and Bluetooth external antennas.
+**Ethernet and Antenna Connections**
+On the bottom side of the sensor, an Ethernet and two N-Type RF connectors are available, as seen in the image below. The Ethernet connector can be used for PC connection to configure the sensor or for LAN/PoE connection. The N-Type connectors are used to connect Wi-Fi and Bluetooth antennas to the sensor.
 
+## External Antennas
 
-## Power Cable
-
-Depending on the power configuration of the sensor, the power cable input hole can be used to run a DC or AC cable to the sensor’s enclosure. A cable gland is used to watertight the connection.
-
-With these components properly understood and installed, your TrafficXHub+ system will be ready to operate efficiently. For further details and safety precautions, refer to the specific hardware documentation.
-
-Thank you for choosing TrafficXHub+ for your data collection needs.
+**External Antennas**
+TrafficXHub™ can detect Bluetooth Classic in Discovery, Bluetooth Connected, Bluetooth Low-Energy (LE) Discovery, and Wi-Fi activated devices. Two RF-2.4GHz antennas are to be attached to the bottom of the sensor where N-type connectors are located.

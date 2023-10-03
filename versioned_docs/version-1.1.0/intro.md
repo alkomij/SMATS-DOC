@@ -2,34 +2,14 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# SMATS Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the official documentation for SMATS, where you can learn about our advanced traffic data collection technology. This site is powered by Docusaurus, a modern documentation generator.
 
-## Getting Started
+## About SMATS
 
-Get started by **creating a new site**.
+SMATS is committed to revolutionizing traffic management through cutting-edge solutions that drive efficiency, safety, and sustainability. Our suite of innovative products is designed to address the most pressing challenges in the field of traffic management, ensuring a smarter and more accessible future for communities worldwide.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## About Docusaurus
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+Docusaurus is a tool that makes it easy to maintain and publish documentation websites. It allows you to create beautiful, user-friendly documentation with Markdown and React.

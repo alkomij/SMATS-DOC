@@ -1,38 +1,33 @@
 ---
-id: TrafficXHub+ Installation
-title: TrafficXHub+ Installation
-sidebar_label: TrafficXHub+ Installation
+id: Installation de TrafficXHub+
+title: Installation de TrafficXHub+
+sidebar_label: Installation de TrafficXHub+
 sidebar_position: 1
-slug: /TrafficXHub+-Installation
+slug: /installation-de-trafficxhub+
 ---
-# TRAFFICXHUB+ INSTALLATION
 
-## Table of Contents
+# Installation de TrafficXHub+
 
-- [External Antenna Installation (Some Models)](#external-antenna-installation-some-models)
-- [Mounting Plates and Brackets](#mounting-plates-and-brackets)
+Table des matières
+- [Installation d'Antenne Externe (Certains Modèles)](#installation-dantenne-externe-certains-modèles)
+- [Plaques de Montage et Supports](#plaques-de-montage-et-supports)
 
-TrafficXHub™ can be set up to collect data from the roadside when secured to a pole using pole-mount brackets and clamps. The image below illustrates the set-up of TrafficXHub™ in the field. The recommended mounting height of the sensor is 3 meters above the ground and at least 2 meters away from any other RF transmitter.
+## Installation d'Antenne Externe (Certains Modèles)
 
+TrafficXHub™ peut être configuré pour collecter des données depuis la bordure de la route lorsqu'il est fixé à un poteau à l'aide de supports et de colliers de fixation. L'image ci-dessous illustre la configuration de TrafficXHub™ sur le terrain. La hauteur de montage recommandée du capteur est de 3 mètres au-dessus du sol et d'au moins 2 mètres de tout autre émetteur RF.
 
-## External Antenna Installation (Some Models)
+## Plaques de Montage et Supports
 
-Some models of TrafficXHub+ use two RF antennas for Wi-Fi and Bluetooth detection. These antennas are dust and water-resistant, but to make them waterproof, the connection between the antenna and the enclosure body needs to be sealed with self-fusing tape.
+Deux supports de montage sur poteau sont utilisés pour fixer le capteur à un poteau. L'image ci-dessous montre comment les supports de montage doivent être fixés sur le boîtier du capteur.
 
-To prevent water intrusion, follow these steps:
+**Important :** Assurez-vous que les boulons sont bien serrés.
 
-1. Firmly hand-tighten the antenna.
-2. Remove the backing film from a piece of the provided self-fusing tape.
-3. Begin wrapping the tape around the antenna joint, starting below the coupling ring, and stretch it 100% to ensure good compression around the connector, as shown below.
+### Installation d'Antenne Externe (Certains Modèles)
 
+Deux antennes RF sont utilisées dans le capteur TrafficXHub™ pour la détection Wi-Fi et Bluetooth. Ces antennes sont résistantes à la poussière et à l'eau, mais pour les rendre étanches, la connexion entre l'antenne et le boîtier doit être scellée avec du ruban auto-amalgamant.
 
-## Mounting Plates and Brackets
+Pour éviter l'infiltration d'eau, les étapes suivantes doivent être suivies :
 
-Two pole-mounting brackets are used to secure the sensor to a pole. The image below shows how these mounting brackets should be attached to the sensor case.
-
-**Important:** Ensure that the bolts are tightened securely.
-
-
-With these installation steps completed, your TrafficXHub+ will be properly set up and ready to collect data effectively. For further details and safety precautions, refer to the specific hardware documentation.
-
-Thank you for choosing TrafficXHub+ for your data collection needs.
+1. Serrez fermement l'antenne à la main.
+2. Retirez le film de protection d'un morceau de ruban auto-amalgamant fourni.
+3. Commencez à enrouler le ruban autour de la jointure de l'antenne en commençant en dessous de la bague de couplage et étirez-le à 100 % pour assurer une bonne compression autour du connecteur, comme indiqué ci-dessous.

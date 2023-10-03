@@ -1,102 +1,102 @@
 ---
-id: TRAFFICBOX COMPONENTS
-title: Trafficbox Installation
-sidebar_label: Trafficbox Installation
+id: COMPOSANTS DE TRAFFICBOX
+title: Installation de TrafficBox
+sidebar_label: Installation de TrafficBox
 sidebar_position: 1
-slug: /Trafficbox-Installation
+slug: /installation-de-trafficbox
 ---
 
-#### Table of Contents
+#### Table des matières
 
-- [Processing Unit](#processing-unit)
-- [5V USB Power in Connector](#5v-usb-power-in-connector)
-- [Power and LEDs Switch](#power-and-leds-switch)
+- [Unité de traitement](#unité-de-traitement)
+- [Connecteur d'alimentation USB 5V](#connecteur-dalimentation-usb-5v)
+- [Interrupteur d'alimentation et de LEDs](#interrupteur-dalimentation-et-de-leds)
 - [LEDs](#leds)
-- [GPS Antenna Connection](#gps-antenna-connection)
-- [Temperature and Humidity Sensor](#temperature-and-humidity-sensor)
+- [Connexion de l'antenne GPS](#connexion-de-lantenne-gps)
+- [Capteur de température et d'humidité](#capteur-de-température-et-dhumidité)
 - [Scanners](#scanners)
-- [Battery Pack](#battery-pack)
-- [Mounting Brackets](#mounting-brackets)
-- [TrafficBox Battery Installation](#trafficbox-battery-installation)
+- [Pack de batterie](#pack-de-batterie)
+- [Supports de montage](#supports-de-montage)
+- [Installation de la batterie TrafficBox](#installation-de-la-batterie-trafficbox)
 
-### Processing Unit
+### Unité de traitement
 
-The processing unit is the main component of the whole system and is responsible for the following tasks:
+L'unité de traitement est le composant principal de l'ensemble du système et est responsable des tâches suivantes :
 
-- Wi-Fi and Bluetooth scanning
-- Data storage
-- Sensor status monitoring
-- LED control
-- Communication via Wi-Fi, Ethernet, or GSM Module.
+- Balayage Wi-Fi et Bluetooth
+- Stockage des données
+- Surveillance de l'état du capteur
+- Contrôle des LED
+- Communication via Wi-Fi, Ethernet ou module GSM.
 
-![Processing Unit](../../../../../static/img/processing.unit_.1.png)
-![Processing Unit](../../../../../static/img/processing.unit_.2.png)
+![Unité de traitement](../../../../../static/img/processing.unit_.1.png)
+![Unité de traitement](../../../../../static/img/processing.unit_.2.png)
 
-#### 5V USB Power in Connector
+#### Connecteur d'alimentation USB 5V
 
-The unit gets connected to the battery via the Mini USB connector using the provided short USB power cable.
+L'unité est connectée à la batterie via le connecteur Mini USB à l'aide du câble d'alimentation USB court fourni.
 
-**WARNING:** Always disconnect the USB power cable from the unit when the sensor is not in use.
+**ATTENTION:** Déconnectez toujours le câble d'alimentation USB de l'unité lorsque le capteur n'est pas en cours d'utilisation.
 
-#### Power and LEDs Switch
+#### Interrupteur d'alimentation et de LEDs
 
-The power switch powers the sensor ON and OFF. After power ON, the unit boots up, and the scanners, GPS processes, and all the components start. At this point, the sensor is functional.
+L'interrupteur d'alimentation met sous tension ou hors tension le capteur. Après la mise sous tension, l'unité démarre, les scanners, les processus GPS et tous les composants démarrent. À ce stade, le capteur est opérationnel.
 
-The LEDS switch turns on the status LEDs. This switch should be turned off during data collection to increase battery life or can alternatively be used to reset the LED status in "range test" mode.
+L'interrupteur LED active les LED d'état. Cet interrupteur doit être éteint pendant la collecte de données pour prolonger la durée de vie de la batterie ou peut être utilisé pour réinitialiser l'état des LED en mode "test de portée".
 
 #### LEDs
 
-The TrafficBox™ unit has seven LEDs to show the status of the sensor's power supply, internet connection, GPS, and the scanners. Table 1 represents the description of each LED and its status definition.
-![Processing Unit](../../../../../static/img/LEDs-status.png)
+L'unité TrafficBox™ dispose de sept LED pour indiquer l'état de l'alimentation du capteur, de la connexion Internet, du GPS et des scanners. Le tableau 1 représente la description de chaque LED et sa définition d'état.
+![Unité de traitement](../../../../../static/img/LEDs-status.png)
 
-#### GPS Antenna Connection
+#### Connexion de l'antenne GPS
 
-The GPS antenna is connected to the GPS Module to locate the position of the sensor as well as synchronize the sensor's clock to the global time servers.
+L'antenne GPS est connectée au module GPS pour localiser la position du capteur ainsi que pour synchroniser l'horloge du capteur sur les serveurs de temps mondiaux.
 
-**Important:** The sensor does not store the detected MAC addresses on the SD card if the sensor's clock is not synced.
+**Important:** Le capteur ne stocke pas les adresses MAC détectées sur la carte SD si l'horloge du capteur n'est pas synchronisée.
 
-#### Temperature and Humidity Sensor
+#### Capteur de température et d'humidité
 
-The sensor temperature and humidity can be monitored and logged in the device internal memory.
+La température et l'humidité du capteur peuvent être surveillées et enregistrées dans la mémoire interne de l'appareil.
 
 #### Scanners
 
-TrafficBox™ is capable of detecting Bluetooth Classic Discovery Mode, Bluetooth Classic Paired Mode, Bluetooth Low-Energy (LE) Discovery Mode, and Wi-Fi signals. The following table presents the recommended combination of two scanners that can be used together with minimal radio frequency signal interference.
-![Processing Unit](../../../../../static/img/TrafficBox-Scanners.png)
+TrafficBox™ est capable de détecter le mode de découverte Bluetooth Classic, le mode appairé Bluetooth Classic, le mode de découverte Bluetooth à faible énergie (LE) et les signaux Wi-Fi. Le tableau suivant présente la combinaison recommandée de deux scanners qui peuvent être utilisés ensemble avec une interférence minimale des signaux radiofréquence.
+![Unité de traitement](../../../../../static/img/TrafficBox-Scanners.png)
 
-The antennas have "male" and "female" connector polarities, so always make sure the correct antenna is used, i.e. the polarity of the antenna is the opposite of that of the scanner.
+Les antennes ont des polarités de connecteur "mâle" et "femelle", alors assurez-vous toujours d'utiliser la bonne antenne, c'est-à-dire que la polarité de l'antenne est opposée à celle du scanner.
 
-#### Battery Pack
+#### Pack de batterie
 
-The battery pack is the main power source of the sensor and the processing unit. Charge the battery overnight for the day of data collection. Use the provided charger and charging cable to charge the battery pack.
+Le pack de batterie est la principale source d'alimentation du capteur et de l'unité de traitement. Chargez la batterie toute la nuit pour la journée de collecte de données. Utilisez le chargeur fourni et le câble de charge pour charger le pack de batterie.
 
-**WARNING – Charge the battery pack at room temperature.**
+**ATTENTION - Chargez la batterie à température ambiante.**
 
-#### Mounting Brackets
+#### Supports de montage
 
-Two pole-mounting brackets are used to mount the sensor to a pole. The images below show how mounting brackets should be attached to the sensor case.
+Deux supports de montage sur poteau sont utilisés pour fixer le capteur à un poteau. Les images ci-dessous montrent comment les supports de montage doivent être fixés au boîtier du capteur.
 
-**Important:** Make sure the bolts are tight, and the plastic washer is used to avoid getting moist or water into the sensor.
-![Mounting Brackets](../../../../../static/img/bracket1.png)
-![Mounting Brackets](../../../../../static/img/bracket2.png)
+**Important:** Assurez-vous que les boulons sont serrés et que la rondelle en plastique est utilisée pour éviter que l'humidité ou l'eau ne pénètre dans le capteur.
+![Supports de montage](../../../../../static/img/bracket1.png)
+![Supports de montage](../../../../../static/img/bracket2.png)
 
-#### TrafficBox Battery Installation
+#### Installation de la batterie TrafficBox
 
-The orange (Positive) and blue (Negative) wires from the TrafficBox board must be connected to the battery's Positive and Negative screw terminals. The battery should be tightly secured using the horizontal and vertical hook and loop straps as shown below:
-![Mounting Brackets](../../../../../static/img/two-images.jpg)
+Les fils orange (positif) et bleu (négatif) de la carte TrafficBox doivent être connectés aux bornes à vis positive et négative de la batterie. La batterie doit être solidement fixée à l'aide des sangles à boucle horizontale et verticale, comme indiqué ci-dessous :
+![Supports de montage](../../../../../static/img/two-images.jpg)
 
-**Warning!**
-- The wrong polarity battery connection will damage the board and can cause a fire.
-- Do not short-circuit the battery.
+**Attention !**
+- Une mauvaise connexion de polarité de la batterie endommagera la carte et peut provoquer un incendie.
+- Ne court-circuitez pas la batterie.
 
-**Charging**
-- Put the charger in 5A and LiFePO4 mode before connecting to the battery.
-![Mounting Brackets](../../../../../static/img/image-with-diagram.jpg)
+**Chargement**
+- Placez le chargeur en mode 5A et LiFePO4 avant de le connecter à la batterie.
+![Supports de montage](../../../../../static/img/image-with-diagram.jpg)
 
-- Put the sensor's main power switch in the OFF position before connecting the charger to the battery.
-![Mounting Brackets](../../../../../static/img/Two-images-1.jpg)
+- Mettez l'interrupteur d'alimentation principal du capteur en position OFF avant de connecter le chargeur à la batterie.
+![Supports de montage](../../../../../static/img/Two-images-1.jpg)
 
-**Warning!**
-- Charge the battery at room temperature.
+**Attention !**
+- Chargez la batterie à température ambiante.
 
-### TrafficBox Installation
+### Installation de TrafficBox

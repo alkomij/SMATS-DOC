@@ -1,28 +1,28 @@
 ---
-id: Link Menu
-title: Link Menu
-sidebar_label: Link Menu
+id: Menu des Liens
+title: Menu des Liens
+sidebar_label: Menu des Liens
 sidebar_position: 1
-slug: /Link-Menu
+slug: /Menu-des-Liens
 ---
-# LINK MENU
+# Menu des Liens
 
-The Link Menu provides a convenient list of configured links along with their essential information. This list includes details such as the link's Status, Name, Distance, Free Flow Speed, Data Source, and Grid.
+Le Menu des Liens offre une liste pratique des liens configurés avec leurs informations essentielles. Cette liste comprend des détails tels que l'État du lien, le Nom, la Distance, la Vitesse en Circulation Libre, la Source de Données et la Grille.
 
-**Note:** The Status column is visible when the link's data source is Crowdsourced.
+**Note :** La colonne État est visible lorsque la source de données du lien est Crowdsourced.
 
-Links' status can have five different values, each serving a specific purpose:
+L'état des liens peut avoir cinq valeurs différentes, chacune servant à un but spécifique :
 
-- **Disabled:** This status indicates that the link is not active and does not collect data, even if it is scheduled.
+- **Désactivé :** Cet état indique que le lien n'est pas actif et ne collecte pas de données, même s'il est planifié.
 
-- **Scheduled:** This status signifies that the link is scheduled to start collecting data in the future based on a specified schedule.
+- **Planifié :** Cet état signifie que le lien est planifié pour commencer la collecte de données à l'avenir, selon un calendrier spécifié.
 
-- **Collecting:** When a link is in this status, it is actively collecting data until the scheduled collection period concludes.
+- **Collecte :** Lorsqu'un lien est dans cet état, il collecte activement des données jusqu'à la fin de la période de collecte planifiée.
 
-- **Collected:** This status indicates that the link has successfully collected travel time data according to its schedule.
+- **Collecté :** Cet état indique que le lien a collecté avec succès des données sur le temps de trajet conformément à son calendrier.
 
-- **Not Collected:** This status suggests that the link could not collect data as scheduled, and an issue may have occurred, such as the depletion of the company's Google credit.
+- **Non Collecté :** Cet état suggère que le lien n'a pas pu collecter de données comme prévu, et un problème pourrait s'être produit, comme l'épuisement du crédit Google de l'entreprise.
 
-For additional details about a specific link, you can click on it in the table or navigate to the Link Info Tab.
+Pour obtenir des détails supplémentaires sur un lien spécifique, vous pouvez cliquer dessus dans le tableau ou naviguer vers l'onglet Infos sur le Lien.
 
-The Link Menu simplifies the management and monitoring of your links, allowing you to stay informed about their current status and performance.
+Le Menu des Liens simplifie la gestion et la surveillance de vos liens, vous permettant de rester informé de leur état actuel et de leurs performances.

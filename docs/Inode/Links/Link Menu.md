@@ -5,7 +5,7 @@ sidebar_label: Link Menu
 sidebar_position: 1
 slug: /Link-Menu
 ---
-# LINK MENU
+# Link Menu
 
 The Link Menu provides a convenient list of configured links along with their essential information. This list includes details such as the link's Status, Name, Distance, Free Flow Speed, Data Source, and Grid.
 

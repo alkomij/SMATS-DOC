@@ -1,52 +1,48 @@
 ---
-id: Trafficxhub Components
-title: Trafficxhub Components
-sidebar_label: Trafficxhub Components
+id: Composants de TrafficXHub
+title: Composants de TrafficXHub
+sidebar_label: Composants de TrafficXHub
 sidebar_position: 2
-slug: /Trafficxhub-Components
+slug: /composants-de-trafficxhub
 ---
-# TRAFFICXHUB COMPONENTS
+# Composants de TrafficXHub
 
-## Table of Contents
-1. Sensor
-2. Power Supply
-3. Power Switch
-4. LEDs
-5. Ethernet and Antenna Connections
-6. External Antennas
+Table des matières
+- [Capteur](#capteur)
+- [Alimentation électrique](#alimentation-électrique)
+- [Interrupteur d'alimentation](#interrupteur-dalimentation)
+- [LEDs](#leds)
+- [Connexions Ethernet et antennes](#connexions-ethernet-et-antennes)
+- [Antennes externes](#antennes-externes)
 
-TrafficXHub™ comprises two main components: the sensor and the antennas.
+## Capteur
 
-## Sensor
-The sensor is the central component of the entire system and is responsible for the following tasks:
-- Wi-Fi and Bluetooth scanning
-- Data storage
-- Sensor status monitoring
-- LED control
-- Communication via Wi-Fi, Ethernet, or Cellular modem. 
+TrafficXHub™ est composé de 2 composants principaux : le capteur et les antennes.
 
-The image below illustrates the sensor's mainboard components:
+**Capteur**
+Le capteur est le composant principal de l'ensemble du système et est responsable des tâches suivantes : balayage Wi-Fi et Bluetooth, stockage des données, surveillance de l'état du capteur, contrôle des LED et communication via Wi-Fi, Ethernet ou modem cellulaire. L'image ci-dessous illustre les composants de la carte principale du capteur.
 
-[Insert Image Here]
+## Alimentation électrique
 
-## Power Supply
-The sensor can be powered through three different sources:
-1. Power-over-Ethernet (PoE)
-2. AC
-3. 12V Solar Panel/Battery
+**Alimentation électrique**
+Le capteur peut être alimenté par 3 sources différentes : Power-over-Ethernet (PoE), courant alternatif (CA) ou panneau solaire/batterie 12V.
 
-## Power Switch
-The power switch controls the sensor's ON and OFF states when using AC or Solar Panel Battery power sources. PoE does not have a power ON switch. Once the sensor is powered ON, the processing unit initiates the scanners and other processes until the sensor is fully functional and connected to the SMATS server.
+## Interrupteur d'alimentation
+
+**Interrupteur d'alimentation**
+L'interrupteur d'alimentation met sous tension ou hors tension le capteur lorsque les sources d'alimentation en courant alternatif ou panneau solaire sont utilisées. Le PoE n'a pas d'interrupteur d'alimentation ON. Une fois le capteur sous tension, l'unité de traitement démarre les scanners et les autres processus jusqu'à ce que le capteur soit entièrement fonctionnel et connecté au serveur SMATS.
 
 ## LEDs
-The TrafficXHub™ unit features eight LEDs that indicate the status of various sensor aspects, including power supply, internet connection, GPS, and scanners. You can toggle the status LEDs ON/OFF to save power in solar-powered scenarios and during range testing. Refer to Table 1 for the description of each LED and its status definition:
 
-[Insert Table Here]
+**LEDs**
+L'unité TrafficXHub™ est dotée de huit LED pour indiquer l'état de l'alimentation du capteur, la connexion Internet, le GPS et les scanners. Activez/désactivez les LEDs d'état pour économiser de l'énergie dans les cas d'alimentation solaire et en mode de test de portée. Le Tableau 1 présente la description de chaque LED et leur définition d'état.
 
-## Ethernet and Antenna Connections
-Located on the bottom side of the sensor, you will find an Ethernet port and two N-Type RF connectors, as shown in the image below. The Ethernet connector is used for PC connection to configure the sensor or for LAN/PoE connection. The N-Type connectors are employed for attaching Wi-Fi and Bluetooth antennas to the sensor.
+## Connexions Ethernet et antennes
 
-[Insert Image Here]
+**Connexions Ethernet et antennes**
+Sur la face inférieure du capteur, une connexion Ethernet et deux connecteurs RF de type N sont disponibles, comme illustré sur l'image ci-dessous. Le connecteur Ethernet peut être utilisé pour la connexion au PC afin de configurer le capteur ou pour la connexion LAN/PoE. Les connecteurs de type N sont utilisés pour connecter les antennes Wi-Fi et Bluetooth au capteur.
 
-## External Antennas
-TrafficXHub™ can detect various Bluetooth and Wi-Fi devices, including Bluetooth Classic in Discovery, Bluetooth Connected, Bluetooth Low-Energy (LE) Discovery, and activated Wi-Fi devices. To achieve this, two RF-2.4GHz antennas should be affixed to the sensor's bottom, where the N-type connectors are located.
+## Antennes externes
+
+**Antennes externes**
+TrafficXHub™ peut détecter les appareils Bluetooth Classic en mode découverte, Bluetooth connectés, Bluetooth à faible énergie (LE) en mode découverte, et les dispositifs activés en Wi-Fi. Deux antennes RF-2,4 GHz doivent être fixées à la base du capteur où se trouvent les connecteurs de type N.

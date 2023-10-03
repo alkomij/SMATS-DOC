@@ -6,5 +6,13 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documention": {
+    "message": "Documention",
+    "description": "Navbar item with label Documention"
   }
 }
