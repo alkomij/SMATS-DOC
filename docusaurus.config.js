@@ -34,7 +34,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SMATS',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.jpg',

@@ -3,7 +3,15 @@
     "message": "Technologie avancée de collecte de données de trafic"
   },
   "SMATS Documentation": {
-    "message": "Documentation SMATS"
+    "message": "Documentation SMATS",
+    "description": "Message d'accueil pour la documentation SMATS"
+  },
+  "Easy to Use": {
+    "message": "Facile à utiliser",
+    "description": "The homepage message to ask the user to visit my blog"
+  },
+  "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.": {
+    "message": "Docusaurus a été conçu dès le départ pour être facilement installé et utilisé pour mettre en place rapidement votre site web."
   },
   "theme.NotFound.title": {
     "message": "Page introuvable",
