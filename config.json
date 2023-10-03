@@ -1,5 +1,5 @@
 {
-    "index_name": "My Site",
+    "index_name": "SMATS-DOC",
     "start_urls": [
       "https://smats-doc.netlify.app/"
     ],

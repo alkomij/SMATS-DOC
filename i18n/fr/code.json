@@ -3,195 +3,187 @@
     "message": "Technologie avancée de collecte de données de trafic"
   },
   "SMATS Documentation": {
-    "message": "Documentation SMATS",
-    "description": "Message d'accueil pour la documentation SMATS"
-  },
-  "Easy to Use": {
-    "message": "Facile à utiliser",
-    "description": "The homepage message to ask the user to visit my blog"
-  },
-  "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.": {
-    "message": "Docusaurus a été conçu dès le départ pour être facilement installé et utilisé pour mettre en place rapidement votre site web."
+    "message": "Documentation SMATS"
   },
   "theme.NotFound.title": {
     "message": "Page introuvable",
-    "description": "The title of the 404 page"
+    "description": "Le titre de la page 404"
   },
   "theme.NotFound.p1": {
     "message": "Nous n'avons pas trouvé ce que vous recherchez.",
-    "description": "The first paragraph of the 404 page"
+    "description": "Le premier paragraphe de la page 404"
   },
   "theme.NotFound.p2": {
     "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
-    "description": "The 2nd paragraph of the 404 page"
+    "description": "Le deuxième paragraphe de la page 404"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Fermer",
-    "description": "The ARIA label for close button of announcement bar"
+    "description": "Libellé ARIA du bouton de fermeture de la bannière d'annonce"
   },
   "theme.blog.archive.title": {
     "message": "Archives",
-    "description": "The page & hero title of the blog archive page"
+    "description": "Le titre de la page d'archives du blog"
   },
   "theme.blog.archive.description": {
     "message": "Archives",
-    "description": "The page & hero description of the blog archive page"
+    "description": "La description de la page d'archives du blog"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Pagination de la liste des articles du blog",
-    "description": "The ARIA label for the blog pagination"
+    "description": "Libellé ARIA pour la pagination du blog"
   },
   "theme.blog.paginator.newerEntries": {
     "message": "Nouvelles entrées",
-    "description": "The label used to navigate to the newer blog posts page (previous page)"
+    "description": "Le libellé utilisé pour naviguer vers la page des articles de blog plus récents (page précédente)"
   },
   "theme.blog.paginator.olderEntries": {
     "message": "Anciennes entrées",
-    "description": "The label used to navigate to the older blog posts page (next page)"
+    "description": "Le libellé utilisé pour naviguer vers la page des articles de blog plus anciens (page suivante)"
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "Une minute de lecture|{readingTime} minutes de lecture",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Libellé pluriel pour \"{readingTime} min de lecture\". Utilisez autant de formes plurielles que votre langue le permet (séparées par \"|\") (voir https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMore": {
     "message": "Lire la suite",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
+    "description": "Le libellé utilisé dans les extraits d'articles de blog pour accéder aux articles complets"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Pagination des articles de blog",
-    "description": "The ARIA label for the blog posts pagination"
+    "description": "Libellé ARIA pour la pagination des articles de blog"
   },
   "theme.blog.post.paginator.newerPost": {
     "message": "Article précédent",
-    "description": "The blog post button label to navigate to the newer/previous post"
+    "description": "Le libellé du bouton de l'article de blog pour naviguer vers l'article précédent"
   },
   "theme.blog.post.paginator.olderPost": {
     "message": "Article suivant",
-    "description": "The blog post button label to navigate to the older/next post"
+    "description": "Le libellé du bouton de l'article de blog pour naviguer vers l'article suivant"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Navigation des articles récents du blog",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+    "description": "Libellé ARIA pour les articles récents dans la barre latérale du blog"
   },
   "theme.blog.post.plurals": {
     "message": "Un article|{count} articles",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Libellé pluriel pour \"{count} articles\". Utilisez autant de formes plurielles que votre langue le permet (séparées par \"|\") (voir https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
     "message": "{nPosts} articles étiquetés avec « {tagName} »",
-    "description": "The title of the page for a blog tag"
+    "description": "Le titre de la page pour une balise de blog"
   },
   "theme.tags.tagsPageLink": {
     "message": "Voir toutes les étiquettes",
-    "description": "The label of the link targeting the tag list page"
+    "description": "Le libellé du lien vers la page de liste des balises"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
     "message": "Copier le code",
-    "description": "The ARIA label for copy code blocks button"
+    "description": "Libellé ARIA pour le bouton de copie des blocs de code"
   },
   "theme.CodeBlock.copied": {
     "message": "Copié",
-    "description": "The copied button label on code blocks"
+    "description": "Libellé du bouton de copie des blocs de code"
   },
   "theme.CodeBlock.copy": {
     "message": "Copier",
-    "description": "The copy button label on code blocks"
+    "description": "Libellé du bouton de copie des blocs de code"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Pagination des documents",
-    "description": "The ARIA label for the docs pagination"
+    "description": "Libellé ARIA pour la pagination des documents"
   },
   "theme.docs.paginator.previous": {
     "message": "Précédent",
-    "description": "The label used to navigate to the previous doc"
+    "description": "Libellé utilisé pour naviguer vers le document précédent"
   },
   "theme.docs.paginator.next": {
     "message": "Suivant",
-    "description": "The label used to navigate to the next doc"
+    "description": "Libellé utilisé pour naviguer vers le document suivant"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Développer le menu latéral",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "description": "Libellé ARIA et attribut de titre pour le bouton d'expansion de la barre latérale des documents"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Développer le menu latéral",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "description": "Libellé ARIA et attribut de titre pour le bouton d'expansion de la barre latérale des documents"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Réduire le menu latéral",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "description": "Attribut de titre pour le bouton de réduction de la barre latérale des documents"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Réduire le menu latéral",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "description": "Attribut de titre pour le bouton de réduction de la barre latérale des documents"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Un document étiqueté|{count} documents étiquetés",
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Libellé pluriel pour \"{count} documents étiquetés\". Utilisez autant de formes plurielles que votre langue le permet (séparées par \"|\") (voir https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} avec l'étiquette \"{tagName}\"",
-    "description": "The title of the page for a docs tag"
+    "description": "Le titre de la page pour une étiquette de documents"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
-    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+    "description": "Libellé indiquant à l'utilisateur qu'il consulte une version de documentation non publiée"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
     "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
-    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+    "description": "Libellé indiquant à l'utilisateur qu'il consulte une version de documentation non maintenue"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
     "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
-    "description": "The label used to tell the user to check the latest version"
+    "description": "Libellé indiquant à l'utilisateur de consulter la dernière version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "dernière version",
-    "description": "The label used for the latest version suggestion link label"
+    "description": "Libellé du lien de suggestion vers la dernière version"
   },
   "theme.common.editThisPage": {
     "message": "Éditer cette page",
-    "description": "The link label to edit the current page"
+    "description": "Libellé du lien pour éditer la page actuelle"
   },
   "theme.common.headingLinkTitle": {
     "message": "Lien direct vers le titre",
-    "description": "Title for link to heading"
+    "description": "Titre du lien vers un titre"
   },
   "theme.lastUpdated.atDate": {
     "message": " le {date}",
-    "description": "The words used to describe on which date a page has been last updated"
+    "description": "Libellé utilisé pour indiquer la date de la dernière mise à jour d'une page"
   },
   "theme.lastUpdated.byUser": {
     "message": " par {user}",
-    "description": "The words used to describe by who the page has been last updated"
+    "description": "Libellé utilisé pour indiquer par qui la page a été mise à jour pour la dernière fois"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Dernière mise à jour{atDate}{byUser}",
-    "description": "The sentence used to display when a page has been last updated, and by who"
+    "description": "Phrase utilisée pour indiquer quand une page a été mise à jour pour la dernière fois, et par qui"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← Retour au menu principal",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+    "description": "Libellé du bouton de retour au menu principal, dans le menu secondaire de la barre latérale mobile (utilisé pour afficher la barre latérale des documents)"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versions",
-    "description": "The label for the navbar versions dropdown on mobile view"
+    "description": "Libellé du menu déroulant des versions de la barre de navigation mobile"
   },
   "theme.common.skipToMainContent": {
     "message": "Aller au contenu principal",
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+    "description": "Libellé pour sauter au contenu principal, utilisé pour l'accessibilité, permettant de naviguer rapidement vers le contenu principal avec la touche Tab/Entrée du clavier"
   },
   "theme.tags.tagsListLabel": {
     "message": "Étiquettes :",
-    "description": "The label alongside a tag list"
+    "description": "Libellé à côté d'une liste de balises"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Sur cette page",
-    "description": "The label used by the button on the collapsible TOC component"
+    "description": "Libellé du bouton de basculement du composant TOC collapsible"
   },
   "theme.tags.tagsPageTitle": {
     "message": "Étiquettes",
-    "description": "The title of the tag list page"
+    "description": "Le titre de la page de liste des balises"
   },
   "Introduction": {
     "message": "Introduction",
@@ -200,112 +192,112 @@
   "At SMATS, we are committed to revolutionizing traffic management through cutting-edge solutions that drive efficiency, safety, and sustainability. Our suite of innovative products is designed to address the most pressing challenges in the field of traffic management, ensuring a smarter and more accessible future for communities worldwide.": {
     "message": "Chez SMATS, nous nous engageons à révolutionner la gestion du trafic grâce à des solutions de pointe qui favorisent l'efficacité, la sécurité et la durabilité. Notre gamme de produits innovants est conçue pour répondre aux défis les plus pressants dans le domaine de la gestion du trafic, garantissant un avenir plus intelligent et plus accessible pour les communautés du monde entier."
   },
-  "Sustainability at Heart": {
-    "message": "Durabilité au cœur",
-    "description": "Sustainability at Heart"
-  },
-  "We are committed to sustainability. SMATS products help reduce emissions by optimizing traffic flow, reducing idle time, and promoting the use of alternative transportation methods. By making our cities greener and more environmentally friendly, we pave the way for a brighter future.": {
-    "message": "Nous nous engageons en faveur de la durabilité. Les produits SMATS contribuent à réduire les émissions en optimisant la circulation routière, en réduisant les temps d'arrêt et en favorisant l'utilisation de modes de transport alternatifs. En rendant nos villes plus vertes et plus respectueuses de l'environnement, nous ouvrons la voie à un avenir plus lumineux."
-  },
   "Customized Solutions": {
     "message": "Solutions personnalisées",
-    "description": "Customized Solutions"
+    "description": "Solutions personnalisées"
   },
   "Every city is unique, and we understand that. That's why SMATS products are highly adaptable and customizable to suit the specific needs of your community. Whether you need a traffic management system for a bustling metropolis or a quiet suburban neighborhood, we've got you covered.": {
     "message": "Chaque ville est unique, et nous le comprenons. C'est pourquoi les produits SMATS sont hautement adaptables et personnalisables pour répondre aux besoins spécifiques de votre communauté. Que vous ayez besoin d'un système de gestion du trafic pour une métropole animée ou un quartier de banlieue calme, nous avons ce qu'il vous faut."
   },
   "Documentation Page": {
-    "message": "Documentation Page"
+    "message": "Page de documentation"
   },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
-    "description": "The title of the fallback page when the page crashed"
+    "description": "Le titre de la page de secours en cas de plantage de la page"
   },
   "theme.admonition.note": {
     "message": "remarque",
-    "description": "The default label used for the Note admonition (:::note)"
+    "description": "Libellé par défaut utilisé pour l'encadré Note (:::note)"
   },
   "theme.admonition.tip": {
     "message": "astuce",
-    "description": "The default label used for the Tip admonition (:::tip)"
+    "description": "Libellé par défaut utilisé pour l'encadré Astuce (:::tip)"
   },
   "theme.admonition.danger": {
     "message": "danger",
-    "description": "The default label used for the Danger admonition (:::danger)"
+    "description": "Libellé par défaut utilisé pour l'encadré Danger (:::danger)"
   },
   "theme.admonition.info": {
     "message": "info",
-    "description": "The default label used for the Info admonition (:::info)"
+    "description": "Libellé par défaut utilisé pour l'encadré Info (:::info)"
   },
   "theme.admonition.caution": {
     "message": "attention",
-    "description": "The default label used for the Caution admonition (:::caution)"
+    "description": "Libellé par défaut utilisé pour l'encadré Attention (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Retour au début de la page",
-    "description": "The ARIA label for the back to top button"
+    "description": "Libellé ARIA pour le bouton de retour en haut de la page"
   },
   "theme.colorToggle.ariaLabel": {
     "message": "Basculer entre le mode sombre et clair (actuellement {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "description": "Libellé ARIA pour le basculement du mode de couleur de la barre de navigation"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "mode sombre",
-    "description": "The name for the dark color mode"
+    "description": "Nom du mode sombre"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "mode clair",
-    "description": "The name for the light color mode"
+    "description": "Nom du mode clair"
   },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} éléments",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
+    "description": "Description par défaut pour une carte de catégorie dans l'index généré, indiquant combien d'éléments cette catégorie comprend"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Fil d'Ariane",
-    "description": "The ARIA label for the breadcrumbs"
+    "description": "Libellé ARIA pour le fil d'Ariane"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Version : {versionLabel}"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Activer/désactiver le retour à la ligne",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
+    "description": "Attribut de titre pour le bouton de basculement du retour à la ligne des lignes de bloc de code"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Plier/Déplier la catégorie '{label}' de la barre latérale",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
+    "description": "Libellé ARIA pour basculer la catégorie de la barre latérale pliable"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
-    "description": "The ARIA label for the main navigation"
+    "message": "Principal",
+    "description": "Libellé ARIA pour la navigation principale"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Langues",
-    "description": "The label for the mobile language switcher dropdown"
+    "description": "Libellé pour le menu déroulant de changement de langue sur la version mobile"
   },
   "theme.blog.post.readMoreLabel": {
     "message": "En savoir plus sur {title}",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
+    "description": "Libellé ARIA pour le lien vers les articles de blog complets à partir des extraits"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "Page d'accueil",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+    "description": "Libellé ARIA pour la page d'accueil dans le fil d'Ariane"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+    "message": "Barre latérale des documents",
+    "description": "Libellé ARIA pour la navigation dans la barre latérale"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Fermer la barre de navigation",
-    "description": "The ARIA label for close button of mobile sidebar"
+    "description": "Libellé ARIA pour le bouton de fermeture de la barre latérale mobile"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Ouvrir/fermer la barre de navigation",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
+    "description": "Libellé ARIA pour le bouton du menu hamburger de la navigation mobile"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Réessayer",
-    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+    "description": "Libellé du bouton pour réessayer le rendu lorsque la limite d'erreur React capture une erreur"
+  },
+  "SMATS products are not just solutions; they are invaluable sources of data. With our systems in place, you gain access to comprehensive traffic analytics that can inform future infrastructure decisions, enhance city planning, and lead to even smarter solutions.": {
+    "message": "Les produits SMATS ne sont pas simplement des solutions ; ce sont des sources de données inestimables. Avec nos systèmes en place, vous avez accès à des analyses de trafic complètes qui peuvent éclairer les décisions futures en matière d'infrastructure, améliorer la planification urbaine et conduire à des solutions encore plus intelligentes."
+  },
+  "Data-Driven Insights": {
+    "message": "Perspectives basées sur les données",
+    "description": "Perspectives basées sur les données"
   }
 }
